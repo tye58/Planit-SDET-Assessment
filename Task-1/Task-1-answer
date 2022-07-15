@@ -1,0 +1,13 @@
+Security testing:
+1.	Verify the web page which contains important data (e.g. password, credit card numbers, secret answers for security question, etc) should be submitted via HTTPS (SSL).
+2.	Verify registration, login, change password function correctly (add forgot password?).
+3.	Verify the important information (e.g. password, credit card numbers etc) should display in encrypted format (dot).
+4.	Make sure orders can be submitted to the correct place
+Functional testing:
+5.	Check all the links are directed correctly
+6.	Check all the buttons work correctly
+7.	All mandatory fields should be validated and indicated by an asterisk (*) symbol.	
+Usability testing:
+8.	Check all items have correct images and prices
+9.	Check spelling and grammatical errors
+10.	Check all fonts are suitable (headings and contents)

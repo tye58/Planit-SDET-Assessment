@@ -1,0 +1,2 @@
+The duplicated list is:
+[{'name': 'Amy', 'DOB': datetime.date(1987, 5, 3), 'nationality': 'Australia'}, {'name': 'Bob', 'DOB': datetime.date(1989, 3, 4), 'nationality': 'Australia'}, {'name': 'Cindy', 'DOB': datetime.date(1988, 5, 2), 'nationality': 'India'}, {'name': 'Emma', 'DOB': datetime.date(1990, 5, 23), 'nationality': 'New Zealand'}]

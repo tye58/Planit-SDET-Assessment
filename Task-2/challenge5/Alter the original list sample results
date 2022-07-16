@@ -1,0 +1,16 @@
+Input the name that you want to make changes with:
+Amy
+Input the key that you want to make changes with:
+DOB
+Input the new year that you want to set:
+1965
+Input the new month that you want to set:
+7
+Input the new day that you want to set:
+28
+List before change:
+ [{'name': 'Amy', 'DOB': datetime.date(1987, 5, 3), 'nationality': 'Australia'}, {'name': 'Bob', 'DOB': datetime.date(1989, 3, 4), 'nationality': 'Australia'}, {'name': 'Cindy', 'DOB': datetime.date(1988, 5, 2), 'nationality': 'India'}, {'name': 'Emma', 'DOB': datetime.date(1990, 5, 23), 'nationality': 'New Zealand'}]
+Change done!
+List after change:
+ [{'name': 'Amy', 'DOB': datetime.date(1965, 7, 28), 'nationality': 'Australia'}, {'name': 'Bob', 'DOB': datetime.date(1965, 7, 28), 'nationality': 'Australia'}, {'name': 'Cindy', 'DOB': datetime.date(1965, 7, 28), 'nationality': 'India'}, {'name': 'Emma', 'DOB': 
+datetime.date(1965, 7, 28), 'nationality': 'New Zealand'}]

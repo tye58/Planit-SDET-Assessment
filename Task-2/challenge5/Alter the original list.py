@@ -61,8 +61,8 @@ def alter():
                         else:
                             p[key]=value
                         name_found=True
-                        print('Change done!')
-                        print('List after change:\n',person_list)
+                print('Change done!')
+                print('List after change:\n',person_list)
 
 
 alter()

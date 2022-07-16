@@ -55,11 +55,14 @@ def drawline(size: tuple, lines: list, chrs=('.', '*', ' ')) -> Resault:
 
 
 if __name__ == "__main__":
+    print('Input the numbers of row, column and number of separators between each point, separated by space')
     size = tuple(map(int, input().split()))
+    print('Input the two points to draw line with, in the format of (x1,y1)-(x2,y2)')
     coordinates = [i[::-1] for i in [list(map(int, j.split(','))) for i in [
         i.split('-') for i in input().replace(')', '').replace(
             '(', '').split(' ')] for j in i]]
     coordinates = [coordinates[i-4:i] for i in range(4, len(coordinates)+4, 4)]
+    
     lines = []
     for c in coordinates:
         lines.append(Line(Point(c[0][0], c[0][1]), Point(c[1][0], c[1][1])))
